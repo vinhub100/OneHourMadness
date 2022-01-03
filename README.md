@@ -1,2 +1,2 @@
 # OneHourMadness
-Do something in an Hour
+Done in an Hour
