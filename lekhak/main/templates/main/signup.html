@@ -3,11 +3,13 @@
 
 {% block body %}
 <div class="row p-4">
-    <div class="col-md-3">
-        <a href="{% url 'main-home' %}" class="btn btn-lg btn-outline-success" style="border-radius:50%;">&lt;</a>
+    <div class="col-md-2">
+        <a href="{% url 'main-home' %}" class="btn btn-lg btn-outline-success float-right" style="border-radius:50%;font-size: 1.5rem;">⬅</a>
     </div>
-    <div class="col-md-6">
-        {% crispy form %}
+    <div class="col-md-8">
+        <div class="card px-4 py-4 ">
+            {% crispy form %}
+        </div>
     </div>
 </div>
 
