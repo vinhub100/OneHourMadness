@@ -25,7 +25,7 @@ class SignupForm(forms.Form):
             Field('password', wrapper_class='row '),
             Field('confirn_password', wrapper_class='row '),
             Field('signup_date', wrapper_class='row'),
-            Submit('submit','Register', css_class='btn btn-lg btn-outline-success float-right', style='width="100%"')
+            Submit('submit','Register', css_class='btn btn-lg btn-outline-success float-right')
         )
         helper.field_class = 'col-9'
         helper.label_class = 'col-3'
