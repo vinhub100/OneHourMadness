@@ -1,0 +1,14 @@
+
+body{
+    background-color: blueviolet;
+}
+
+svg{
+    
+    border-radius: 50%;
+
+}
+
+#layer1, #layer3 {
+    transform: rotate(90);
+}

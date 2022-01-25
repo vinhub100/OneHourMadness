@@ -11,6 +11,9 @@ def home(request):
 def login(request):
     pass
 
+class Signup():
+    pass
+
 def signup(request):
     if request.method == 'POST':
         return redirect('main-home')
