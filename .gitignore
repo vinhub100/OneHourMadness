@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+daylog/static/admin
 build/
 develop-eggs/
 dist/
