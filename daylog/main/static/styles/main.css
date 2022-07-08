@@ -1,0 +1,52 @@
+body {
+    color: white;
+    background: linear-gradient(to right, #0F2027, #203A43, #2C5364);
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container>div {
+    width: 100%;
+    margin: 0px;
+    line-height: 15px;
+    font-size: 20px;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-right {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.flex-left {
+    justify-content: flex-start;
+}
+
+input[type='text'].search {
+    width: 100%;
+    background: #00000000;
+    border-color: #67d1ff55;
+    border-width: 1px;
+    border-radius: 15px;
+    color: #67d1ff55;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type='text'].search:focus {
+    border-radius: 30px;
+    font-size: 2rem;
+}
+
+.daylog-card {
+    background-color: #203A4355;
+}
+
+.daylog-card:hover {
+    box-shadow: 0px 0px 50px #203A73;
+}

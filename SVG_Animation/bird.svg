@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 52.916668 52.916665"
+   height="100"
+   width="100"
+   >
+ 
+  <g
+     transform="translate(0,-244.08334)"
+
+     id="layer1">
+    <path
+       id="bird"
+       d="m 52.648844,255.03957 c 0,0 -25.854582,-0.10856 -25.988687,26.32586 10e-7,-26.30226 -26.66003798447,-26.32586 -26.66003798447,-26.32586"
+       style="fill:none;stroke:#000000;stroke-width:0.26359203px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" >
+       
+       <animate
+  	begin="0s"
+    	dur="1.5s"
+    	attributeName="d"
+    	repeatCount="indefinite"
+    	values=" 
+          	m 52.648844,255.03957 c 0,0 -25.854582,-0.10856 -25.988687,26.32586 10e-7,-26.30226 -26.66003798447,-26.32586 -26.66003798447,-26.32586;
+          	m 52.648844,267.0667 c 0,0 -25.854582,-12.13569 -25.988687,14.29873 10e-7,-26.30226 -26.66003798447,-14.566 -26.66003798447,-14.566;
+          	m 52.648844,255.03957 c 0,0 -25.854582,-0.10856 -25.988687,26.32586 10e-7,-26.30226 -26.66003798447,-26.32586 -26.66003798447,-26.32586;
+          "
+  />
+       
+       </path>
+  </g>
+</svg>

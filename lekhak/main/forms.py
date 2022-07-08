@@ -1,5 +1,7 @@
 from crispy_forms.layout import Layout
 from django import forms
+from django.forms.widgets import SelectDateWidget
+from django.contrib.admin.widgets import AdminDateWidget
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Layout, HTML, Field, Submit
 
@@ -12,7 +14,7 @@ class SignupForm(forms.Form):
     username = forms.CharField(label='User Name', required=True)
     password = forms.CharField(label='Password', required=True)
     confirn_password = forms.CharField(label='Confirm Password', required=True)
-    # signup_date = forms.DateField(label='Today Date', widget=forms.SelectDateWidget(years=range(1920,2023)), required=True)
+    signup_date = forms.DateField(label='Today Date', widget=AdminDateWidget)
 
     @property
     def helper(self):
@@ -26,7 +28,7 @@ class SignupForm(forms.Form):
             Field('username', wrapper_class='row '),
             Field('password', wrapper_class='row '),
             Field('confirn_password', wrapper_class='row '),
-            # Field('signup_date', wrapper_class='row'),
+            Field('signup_date', wrapper_class='row'),
             Submit('submit','Register', css_class='btn btn-outline-success btn-block')
         )
         helper.field_class = 'col-md-9 '

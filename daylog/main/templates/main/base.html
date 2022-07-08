@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{% static 'lib/bootstrap4/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/main.css' %}"> {% block head %}{% endblock %}
+</head>
+
+<body>
+    <nav class="flex-container flex-center p-3">
+        <div class="flex-container flex-left ">
+            <div>
+                <h4>DayLog</h4>
+            </div>
+        </div>
+        <div class="flex-container flex-center ">
+            <div>
+                <input class="search" type="text" placeholder=" Search">
+            </div>
+        </div>
+        <!-- <div></div> -->
+        <div class="flex-container flex-right px-5">
+            <div>
+                <h6>Blog</h4>
+            </div>
+            <div>
+                <h6>About</h4>
+            </div>
+
+            <div>
+                <h6>Login</h4>
+            </div>
+
+        </div>
+        </div>
+    </nav>
+    {% block body %} {% endblock %}
+
+    <footer>
+
+    </footer>
+
+    <script src="{% static 'lib/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'lib/bootstrap4/bootstrap.min.js' %}"></script>
+    <script src="{% static 'lib/popper/popper.min.js' %}"></script>
+    <script src="{% static 'scripts/main.js' %}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>
